@@ -1,0 +1,26 @@
+.Block {
+  display: inline-block;
+  margin: 0px auto;
+  width: 154px;
+  height: 150px;
+  border: 1px solid grey;
+}
+
+.ActiveBlock {
+  display: inline-block;
+  margin: 0px auto;
+  width: 154px;
+  height: 150px;
+  border: 1px solid grey;
+  background: rgba(236, 151, 67, 0.51);
+}
+
+.BigCircle {
+  width: 156px;
+  height: 147px;
+}
+
+.BigCross {
+  width: 156px;
+  height: 147px;
+}

@@ -1,0 +1,96 @@
+
+.Header {
+  height: auto;
+}
+
+.Header p{
+  text-align: center;
+  font-size: 40px;
+  color: #282ce2;
+  padding-bottom: 15px;
+  border-bottom: 2px solid grey;
+}
+
+.Rules {
+  list-style-type: upper-alpha;
+  font-size: 26px;
+  color: #282ce2;
+  text-align: left;
+  padding-bottom: 30px;
+  border-bottom: 2px solid grey;
+}
+
+.Rules li {
+  padding-left: 200px;
+}
+
+.Message {
+  display: block;
+  text-align: center;
+}
+
+.Message p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.Reset {
+  padding: 3px;
+  font-size: 16px;
+  color: red;
+  margin-top: 5px;
+  border: 1px solid red;
+  border-radius: 3px;
+}
+
+.Board {
+  padding-top: 0px;
+  margin-bottom: 50px;
+}
+
+.Player1 {
+  display: inline-block;
+  position: absolute;
+  left: 5%;
+}
+
+.Player1 p{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.Player2 {
+  display: inline-block;
+  position: absolute;
+  right: 5%;
+}
+
+.Player2 p{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.Tic {
+  display: inline-block;
+  margin: 0px auto;
+  position: absolute;
+  left: 50%;
+  margin: 10px 0 50px -235px;
+  width: 469px;
+  border: 2px solid grey;
+}
+
+.Blocks {
+  margin: 0px auto;
+  width: 100%;
+  border-right: 3px solid grey;
+}
+
+.Win {
+  margin: 0px auto;
+  width: 100%;
+  border-right: 3px solid grey;
+}
